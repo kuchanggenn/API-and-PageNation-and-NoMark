@@ -1,0 +1,46 @@
+.head-line{
+    /* 위에  공백처리 margin-top */
+    margin-top: 1em;
+    /* 가운데 처리 */
+    display: flex; 
+    justify-content: center;
+}
+
+.head-line svg {
+    width: 430px;
+}
+
+.menus {
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    /* 메뉴위에 선 */
+    border-top: 1px solid #ebebeb ;
+    /* 메뉴밑에 선 */
+    border-bottom: 4px double black;
+    /* 메뉴들을 가운데 처리햇는데 끝에 애들이 선밖으로 삐져 나올 때 */
+    flex-wrap: wrap;
+}
+
+.menus button {
+    border: none;
+    background: none;
+    margin: 5px;
+}
+
+/* 메뉴 버튼에 마우스 갖다됫을때 색깔 변하게*/
+.menus button:hover {
+    background-color: beige;
+}
+
+.news-img-size {
+    max-width: 100%; /* 부모크기의 100프로 */
+    max-height: 250px;
+    margin-bottom: 0.2em;
+}
+
+.news {
+    margin-top: 0.2em;
+    border-bottom: 1px solid black;
+}
+
